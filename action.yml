@@ -4,9 +4,9 @@ description: Greet someone
 
 inputs:
   who-to-greet:
-  description: Who to greet
-  required: true
-  default: Hello
+    description: Who to greet
+    required: true
+    default: Hello
 
 
 outputs:
@@ -14,6 +14,6 @@ outputs:
     description: time greeted
 
 
-  runs:
+runs:
     using: node20
     main: dist/index.js
