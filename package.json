@@ -1,15 +1,25 @@
 {
   "name": "custom-actions",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "tunnel": "^0.0.6",
+    "undici": "^5.29.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fardus242/custome-action.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "@actions/core": "^1.11.1"
-  }
+  "bugs": {
+    "url": "https://github.com/Fardus242/custome-action/issues"
+  },
+  "homepage": "https://github.com/Fardus242/custome-action#readme"
 }
